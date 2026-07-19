@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="shrug.png">
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <title>Qual é o número?</title>
+
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Qual é o número?</h1>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Como o jogo funciona?</h2>
+
+            <p>Tente descobrir o número secreto entre 1 e 100.</p>
+            <p>Você tem 10 tentativas.</p>
+        </section>
+
+        <section>
+
+            <label for="palpite">Digite aqui o seu palpite:</label>
+            <input id="palpite" name="palpite" type="number" placeholder="Ex: 3" required>
+
+            <button type="button" onclick="chutar()">Chutar</button>
+
+            <p id="mensagens"></p>
+            <p id="tentativas"></p>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Isabella Christina para fins educativos.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
